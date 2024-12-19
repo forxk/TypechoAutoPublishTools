@@ -1,8 +1,9 @@
 ---
-title: [XiuRen秀人网]第9427期小蛮妖写真
+title: "[XiuRen秀人网]第9427期小蛮妖写真"
 tags: 
 - 秀人
 - 写真
+- 小蛮妖
 categories:
 - 秀人
 - 写真

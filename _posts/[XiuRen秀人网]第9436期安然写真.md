@@ -1,8 +1,9 @@
 ---
-title: [XiuRen秀人网]第9436期安然写真
+title: "[XiuRen秀人网]第9436期安然写真"
 tags: 
 - 秀人
 - 写真
+- 安然
 categories:
 - 秀人
 - 写真

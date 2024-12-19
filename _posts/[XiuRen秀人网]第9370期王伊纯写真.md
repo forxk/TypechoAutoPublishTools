@@ -1,8 +1,9 @@
 ---
-title: [XiuRen秀人网]第9370期王伊纯写真
+title: "[XiuRen秀人网]第9370期王伊纯写真"
 tags: 
 - 秀人
 - 写真
+- 王伊纯
 categories:
 - 秀人
 - 写真

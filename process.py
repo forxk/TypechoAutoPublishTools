@@ -12,7 +12,7 @@ def get_all_files(directory):
 # print(get_all_files('source'))
 
 def process_file(file):
-    with open(file, 'r', encoding='utf-8') as f:
+    with open(file, 'r', encoding='utf-8', errors='ignore') as f:
         content = f.read()
     
     # 获取文件名（不带扩展名）
@@ -21,10 +21,11 @@ def process_file(file):
     
     # 生成 Markdown 文件内容
     markdown_content = f"""---
-title: {filename}
+title: "{filename}"
 tags: 
 - 秀人
 - 写真
+- {name}
 categories:
 - 秀人
 - 写真
@@ -34,7 +35,7 @@ categories:
 """
     # 写入新的 Markdown 文件
     output_file = f"_posts/{filename}.md"
-    with open(output_file, 'w') as f:
+    with open(output_file, 'w', encoding='utf-8') as f:
         f.write(markdown_content)
 
 for file in get_all_files('source'):

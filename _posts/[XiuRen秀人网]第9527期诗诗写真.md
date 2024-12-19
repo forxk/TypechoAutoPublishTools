@@ -1,8 +1,9 @@
 ---
-title: [XiuRen秀人网]第9527期诗诗写真
+title: "[XiuRen秀人网]第9527期诗诗写真"
 tags: 
 - 秀人
 - 写真
+- 诗诗
 categories:
 - 秀人
 - 写真
