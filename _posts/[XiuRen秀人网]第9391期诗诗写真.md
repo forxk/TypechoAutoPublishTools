@@ -3,7 +3,6 @@ title: [XiuRen秀人网]第9391期诗诗写真
 tags: 
 - 秀人
 - 写真
-- 诗诗
 categories:
 - 秀人
 - 写真

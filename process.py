@@ -25,7 +25,6 @@ title: {filename}
 tags: 
 - 秀人
 - 写真
-- {name}
 categories:
 - 秀人
 - 写真

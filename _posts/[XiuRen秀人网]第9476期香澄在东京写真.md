@@ -3,7 +3,6 @@ title: [XiuRen秀人网]第9476期香澄在东京写真
 tags: 
 - 秀人
 - 写真
-- 香澄在东京
 categories:
 - 秀人
 - 写真
