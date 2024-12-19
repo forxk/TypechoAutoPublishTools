@@ -1,4 +1,6 @@
 import os
+import random
+import string
 
 def get_all_files(directory):
     """返回指定目录及其子目录中所有文件的完整路径"""
@@ -19,6 +21,8 @@ def process_file(file):
     filename = os.path.splitext(os.path.basename(file))[0]
     name = filename.split('写真')[0].split('期')[-1]
     
+    random_filename = ''.join(random.choices(string.ascii_letters + string.digits, k=12))
+
     # 生成 Markdown 文件内容
     markdown_content = f"""---
 title: "{filename}"
@@ -34,7 +38,7 @@ categories:
 {content}
 """
     # 写入新的 Markdown 文件
-    output_file = f"_posts/{filename}.md"
+    output_file = f"_posts/{random_filename}.md"
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(markdown_content)
 
